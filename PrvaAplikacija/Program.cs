@@ -55,6 +55,15 @@ namespace PrvaAplikacija
             d = 1.43e9;
             Console.WriteLine("d = 1.43e9; " + "(decimal)d) = " + (decimal)d + " d = " + d);
 
+            double dec_broj = 0.42e2;
+            Console.WriteLine("\n --\ndouble dec_broj = 0.42e2; " + dec_broj);
+
+            float f_broj = 134.45E-2f;
+            Console.WriteLine("\n --\nfloat f_broj = 134.45E-2f; " + f_broj);
+
+            decimal m = 1.5E6m;
+            Console.WriteLine("\n --\ndecimal m = 1.5E6m; " + m);
+
             bool izraz = true;
             Console.WriteLine("\n --\nbool izraz = true; " + izraz);
 
@@ -65,9 +74,19 @@ namespace PrvaAplikacija
 
             Console.WriteLine("\n ---\nchar c1 = 'j'; " + c1 + "\nchar c2 = '\\u006A'; " + c2 + "\nchar c3 = '\\x006A'; " + c3 + " \nchar c4 = (char)106; " + c4);
 
+            var znakovi = new[]
+            {
+                'j',
+                '\u006A',
+                '\x006A',
+                (char)106,
+            };
+            Console.WriteLine(string.Join(", ", znakovi));
+            
+            
             Console.WriteLine("\n ---\n\"č itat\"");
 
-            Console.WriteLine("\n ---\nNovi red\n\tDrugi red");
+            Console.WriteLine("\n ---\n\'Novi red\'\n\t\\Drugi red\\backspace\b");
 
             double r = 3, pi = 3.13, O, P;
             Console.WriteLine("\n ---\ndouble r = 3, pi = 3.14, O, P;" + r + " r " + pi + " pi");
@@ -83,16 +102,16 @@ namespace PrvaAplikacija
             Console.WriteLine("\nDuljina polumjera r = " + r + " cm pi = " + pi + "Opseg O = " + O + " cm Površina P = " + P + " cm");
 
             int h = 3, j = 2;
-            Console.WriteLine(h / j);
-            Console.WriteLine((float)h / j);
+            Console.WriteLine("int h = 3, j = 2; h / j = " + h / j);
+            Console.WriteLine("int h = 3, j = 2; h / j ili (float)h / j = " + (float)h / j);
             int k = 200000000;
-            Console.WriteLine(k * k);
+            Console.WriteLine("int k = 200000000;k * k = " + k * k);
 
             long l = k;
-            Console.WriteLine(l * l);
+            Console.WriteLine("int k = 200000000;long l = k; l * l = " + l * l);
 
             // TODO: nastavak rada
-
+            
             Console.ReadLine();  //Čeka pritisak entera za kraj programa
 
         }
