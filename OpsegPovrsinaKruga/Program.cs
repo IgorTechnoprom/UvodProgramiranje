@@ -16,7 +16,7 @@ namespace OpsegPovrsinaKruga
             Console.WriteLine("Unesite radius kruga: ");
             float r=float.Parse(Console.ReadLine());
             const float pi=3.14f;
-            double P, O;
+            float P, O; //može i double
             O = 2 * r * pi;
             P = r * r * pi; // P = r * O / 2;
             Console.WriteLine("Površina je " + P + "\nOpseg je " + O);
