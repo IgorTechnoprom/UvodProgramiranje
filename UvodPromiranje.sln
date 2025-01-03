@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Varijable", "Varijable\Vari
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpsegPovrsinaKruga", "OpsegPovrsinaKruga\OpsegPovrsinaKruga.csproj", "{041F4A07-C836-4959-8AD1-3D6494182E55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Podatkovni_Tipovi", "Podatkovni_Tipovi\Podatkovni_Tipovi.csproj", "{8E7F23C2-5A76-4F1B-8395-B5F52E38815A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{041F4A07-C836-4959-8AD1-3D6494182E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{041F4A07-C836-4959-8AD1-3D6494182E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{041F4A07-C836-4959-8AD1-3D6494182E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7F23C2-5A76-4F1B-8395-B5F52E38815A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7F23C2-5A76-4F1B-8395-B5F52E38815A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7F23C2-5A76-4F1B-8395-B5F52E38815A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7F23C2-5A76-4F1B-8395-B5F52E38815A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
