@@ -42,10 +42,10 @@ namespace OcjenaSwitch
                 case 3: //pi==3
                     Console.WriteLine("Manje točno");
                     break;
-                case 3.1f;
+                case 3.1f:
                     Console.WriteLine("Preciznije");
                     break;
-                case 3.142f;
+                case 3.142f:
                     Console.WriteLine("Točno");
                     break;
                 default:
