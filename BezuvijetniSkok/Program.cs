@@ -51,7 +51,7 @@ namespace BezuvijetniSkok
 
             }
 
-            while (true);
+            while (true)
             {
                 do
                 {
