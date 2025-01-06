@@ -66,6 +66,13 @@ namespace Podatkovni_Tipovi
             Console.WriteLine(double.MaxValue);
             Console.WriteLine(double.Epsilon);
 
+            Console.WriteLine();
+            Console.WriteLine("Logički tip");
+
+            bool log = true;
+            Console.WriteLine(log);
+            Console.WriteLine(false);
+            Console.WriteLine(true);
 
 
 
